@@ -2,22 +2,22 @@
 class Whisperdrop < Formula
   desc "Send and receive files over LAN or an encrypted tunnel, from the screen edge or the CLI"
   homepage "https://github.com/kridsadar357/whisperdrop"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.3.0/whisperdrop-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5fc88f4c9d507fa99d118bcd890ee6a8682713cdbb8fa8bf0a304b72b4da59a3"
+      url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.4.0/whisperdrop-0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4c1b4489094284ce12bc2bb6fadad7bfca7a2b967c2c5d39333bca5e8a68364d"
     end
     on_intel do
-      url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.3.0/whisperdrop-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ffb0d4e36da50c2db20b2e8428a14ab893bd0de3ac1f0d194b2ff239665ce14e"
+      url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.4.0/whisperdrop-0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fd2fb7a026c3ef22dcbc5f408e4622d9320c623c63ff54aa60b5d1260eb3f06b"
     end
   end
 
   on_linux do
-    url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.3.0/whisperdrop-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "bbaede2d98df48efd2eb0e7192cb887fbd71fd45ae965fb09cf1e16ecfcd469a"
+    url "https://github.com/kridsadar357/whisperdrop/releases/download/v0.4.0/whisperdrop-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "6dd89ad9c6f563d8f5aca5267abd1714091cf3243e95f5a80dd912f4e24b6e6d"
   end
 
   def install
